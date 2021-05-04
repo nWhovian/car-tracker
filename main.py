@@ -112,7 +112,7 @@ class Tracker():
             used_rows = set()
             used_cols = set()
             for (row, col) in zip(rows, cols):
-                if row in used_rows or col in used_cols or dist[row][col] > 150:
+                if row in used_rows or col in used_cols or dist[row][col] > 100:
                     continue
                 object_id = ids[row]
                 self.previous[object_id] = self.objects[object_id]
