@@ -4,9 +4,12 @@
 
 Clone repository:
 ```
-git clone https://github.com/nWhovian/car_tracker.git
-cd path/to/car_tracker
+git clone https://github.com/nWhovian/car-tracker.git
+cd path/to/car-tracker
 ```
+Download file from [here](https://drive.google.com/uc?export=download&id=1ciX7cHqCh8lLFYI0HKkhC3r_fMirrlKk) and save it as
+```/files/l_openvino_toolkit_p_2019.1.133.tgz```
+
 Download the docker image:
 ```
 docker-compose pull
@@ -25,4 +28,4 @@ python3.6 main.py
 ```
 Optional arguments: ```--video video.mkv --output out.mp4 --xml_path models/FP32/vehicle-detection-adas-0002.xml --bin_path models/FP32/vehicle-detection-adas-0002.bin```
 
-The output file is located here by default: path/to/car_tracker/out.mp4
+The output file is located here by default: path/to/car-tracker/out.mp4
