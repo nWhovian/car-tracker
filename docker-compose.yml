@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    image: nwhovian/car_tracker
+    volumes:
+      - .:/root
+    stdin_open: true
+    tty: true
